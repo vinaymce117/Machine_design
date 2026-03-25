@@ -1,0 +1,37 @@
+# --- LangChain ecosystem (compatible versions) ---
+langchain==0.3.26
+langchain-community==0.3.16
+langchain-pinecone==0.2.13
+langchain-openai==0.3.24
+
+# --- API ---
+flask==3.1.1
+
+# --- Embeddings / LLM ---
+sentence-transformers==4.1.0
+transformers==4.44.2
+torch>=2.2.0
+
+# --- Document parsing ---
+pypdf==5.6.1
+unstructured==0.15.7
+unstructured-inference==0.7.36
+
+# --- Table extraction (fixed) ---
+camelot-py==0.11.0
+tabula-py==2.9.0
+
+# --- Image + OCR ---
+pytesseract==0.3.13
+Pillow==10.4.0
+opencv-python==4.10.0.84
+
+# --- Data processing ---
+pandas==2.2.2
+numpy==1.26.4
+tqdm==4.66.4
+
+# --- Env ---
+python-dotenv==1.0.1
+
+-e .
