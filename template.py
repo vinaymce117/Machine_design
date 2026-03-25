@@ -4,6 +4,7 @@ import os
 directories = [
     "research",
     "src",
+    "data"
 ]
 
 # List of files to create
